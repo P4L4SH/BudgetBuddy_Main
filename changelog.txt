@@ -1,0 +1,29 @@
+🔄 Evolution: Phase 2 ➡ Phase 3
+
+🎨 UI Framework
+Plan: Vanilla HTML, CSS, JavaScript.
+Final: React 18 component architecture with Vite + Tailwind CSS for faster development and reusable UI components.
+
+📱 Responsive Design
+Plan: Basic responsive resizing.
+Final: Refined single-page dashboard layout — chart + form side-by-side on desktop, stacked on mobile. No sidebar, no clutter.
+
+📊 Visualization
+Plan: 3D Chart.js with gradient effects.
+Final: Clean green/red doughnut chart (Chart.js + react-chartjs-2) with theme-aware tooltips and legend colors.
+
+💾 Data Storage
+Plan: JSON file on server filesystem.
+Final: Dual-mode database — SQLite (better-sqlite3) for local dev, PostgreSQL for production on Render. Auto-switches via DATABASE_URL.
+
+🌗 Theme Support
+Plan: Dark mode only.
+Final: Light/Dark theme toggle with localStorage persistence and smooth CSS transitions.
+
+🧪 Testing
+Plan: No automated tests.
+Final: 16 automated tests (Jest + Supertest + React Testing Library) covering API endpoints and frontend components.
+
+🚀 Deployment
+Plan: Localhost only.
+Final: Live on Render.com with free PostgreSQL — accessible at budgetbuddy-main.onrender.com

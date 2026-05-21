@@ -1,0 +1,13 @@
+🛠️ Technical Choices
+
+🖥️ Frontend: React 18 with Vite — fast component-based UI with hot module reload, styled using Tailwind CSS for responsive design. Uses Chart.js + react-chartjs-2 for the income vs expense doughnut chart and Axios for API communication.
+
+⚙️ Backend: Node.js with Express — RESTful API handling CRUD operations (GET, POST, PUT, DELETE) with input validation and error handling.
+
+💾 Data Storage: Dual-mode database — SQLite (better-sqlite3) for local development, PostgreSQL for production on Render. Auto-switches via DATABASE_URL environment variable — no config changes needed.
+
+🎨 Design Goal: Clean monochrome interface with light/dark theme toggle, responsive layout (desktop + mobile), Chakra Petch + Montserrat fonts.
+
+🧪 Testing: 16 automated tests using Jest, Supertest, and React Testing Library covering API endpoints and frontend components.
+
+🚀 Deployment: Hosted on Render.com with free PostgreSQL — live at budgetbuddy-main.onrender.com

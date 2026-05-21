@@ -1,0 +1,22 @@
+Phase 3 - Finalization
+Student: Palash Verma
+Project: BudgetBuddy Pro - Personal Finance Tracker
+
+This submission contains the final Phase 3 deliverables. The application was upgraded from the Phase 2 prototype into a modern web app using React 18, Vite, and Tailwind CSS on the frontend, with a Node.js/Express backend and dual database support (SQLite locally, PostgreSQL on Render).
+
+Key Improvements:
+- Migrated from vanilla HTML/CSS/JS to React component architecture (SummaryCards, TransactionForm, TransactionList, IncomeExpenseChart)
+- Replaced JSON file storage with SQLite/PostgreSQL with automatic switching via DATABASE_URL
+- Added light/dark theme toggle, date picker, filter buttons, edit functionality, doughnut chart, and empty state UI
+- Added 16 automated tests (Jest + Supertest + React Testing Library) for API endpoints and frontend components
+- Deployed on Render.com at https://budgetbuddy-main.onrender.com
+
+Phase 2 Feedback Addressed:
+- GitHub link included: https://github.com/P4L4SH/BudgetBuddy_Main
+- Screenshots annotated with labels explaining features
+- Test cases provided as automated tests and manual test table
+- Screencast shows both desktop and mobile views
+- Installation instructions in README
+- Filename follows naming convention
+
+Lessons Learned: I gained practical experience with React component architecture, state management with hooks, RESTful API design, database switching, cloud deployment, and automated testing. The transition to React improved code organization and maintainability significantly.
